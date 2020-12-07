@@ -1,0 +1,5 @@
+---- Camera_ConfigDescriptor Matches (4 in 3 files) ----
+usb_desc.c (Project\AT_START_F403A\Templates\USB_APP) line 37 : const u8 Camera_ConfigDescriptor[] =
+usb_desc.h (Project\AT_START_F403A\Templates\USB_APP) line 229 : extern const u8 Camera_ConfigDescriptor[CAMERA_SIZ_CONFIG_DESC];
+usb_prop.c (Project\AT_START_F403A\Templates\USB_APP) line 136 :     (u8*)Camera_ConfigDescriptor,
+UsbCamera_Reset in usb_prop.c (Project\AT_START_F403A\Templates\USB_APP) :     pInformation->Current_Feature = Camera_ConfigDescriptor[7];

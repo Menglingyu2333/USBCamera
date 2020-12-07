@@ -1,0 +1,15 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\bin\armJET.dll" 
+
+"D:\AT32F4xx_StdPeriph_Lib_V1.x.x\Utilities\AT32F403A_SLIB_Demo\Project_L0\IAR_V7.4\SLIB-IP-Code-XO\Exe\Project_L0.out" 
+
+--plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\bin\armbat.dll" 
+
+--device_macro "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\config\debugger\ArteryTek\AT32F4xx_XL.dmac" 
+
+--flash_loader "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\config\flashloader\ArteryTek\AT32F403A\AT32F403AVGT7\FlashAT32F403AVGT7.board" 
+
+
+
+
