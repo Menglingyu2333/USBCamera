@@ -155,6 +155,7 @@ typedef struct
   */
 #define EXTI_Enable(channel)  (NVIC->ISER[0] = (uint32_t)0x01 << (channel))
 #define EXTI_Disable(channel) (NVIC->ICER[0] = (uint32_t)0x01 << (channel))
+#define EXTI_ClrPending(channel)  (NVIC->ICPR[0] = (uint32_t)0x01 << (channel))
 #define EXTI_GetStat_Enable(channel) ((NVIC->ISER[0]) & ((uint32_t)0x01 << (channel)))
 /**
   * @}
